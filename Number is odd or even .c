@@ -8,12 +8,12 @@ scanf("%d", &a);
 
 if(a%2==0)
 {
-printf("NUMBER IS EVEN");
+printf("NUMBER IS EVEN\n");
 }
 
  else
  {
-printf("NUMBER IS ODD");
+printf("NUMBER IS ODD\n");
 }
 
 printf("Vaibhav 125113039\n");
