@@ -1,28 +1,26 @@
 #include<stdio.h>
 
-// finding_the simple interest
-
 int main()
+{
+float a,r,t,s;
 
-float P,R,T;
+printf("Enter Principle Amount :");
 
-printf("Enter Principle amount :");
-
-scanf("%f",&P);
+scanf("%f",&a);
 
 printf("Enter Rate :");
 
-scanf("%f",&R);
+scanf("%f",&r);
 
-printf("Enter Time Period: ");
+printf("Enter Time(in years): ");
 
-scanf("%f",&T);
+scanf("%f",&t);
 
-float SI;
+s=a*r*t/100;
 
-printf("Simple Interest : %f\n", SI=P*R*T/100);
+printf("Simple Interest for %f years is %f\n", t,s);
 
-printf("My name is Vaibhav");
+printf("Vaibhav 125113039");
 
 return 0;
 
